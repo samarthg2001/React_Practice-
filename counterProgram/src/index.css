@@ -1,0 +1,23 @@
+body{
+  background-color: aliceblue;
+}
+.container{
+  text-align: center;
+  width: 100%;
+  background-color: lightblue;
+  border: 1px solid black;
+  color: black;
+  font-size: 3em;
+  border-radius: 30px;
+}
+button{
+  background-color:hsl(55, 79%, 72%);
+  margin: 10px;
+  padding: 4px;
+  border-radius: 10px;
+  color: red;
+  font-size: .8em;
+}
+button:hover{
+  background-color: hsl(55, 79%, 82%);;
+}
