@@ -1,0 +1,14 @@
+*{
+    margin: 0 auto;
+}
+.navbar{
+display: flex;
+
+}
+
+.navbar ul{
+    list-style: none;
+    gap: 10px;
+    all: unset;
+    display: flex;
+}

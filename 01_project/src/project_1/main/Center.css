@@ -1,0 +1,62 @@
+
+.center{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1280px;   
+    align-items: center;
+    height: calc(100vh- 72px);
+}
+.center h1{
+    font-weight: 800;
+    line-height: 102px;
+    font-size: 108px;
+}
+.center p{
+    font-weight: 600;
+    color: var(--grey);
+    margin: 25px;
+    width: 90vh;
+    max-width: 404px;
+
+}
+
+.hero-button{
+    display: flex;
+    gap: 25px;
+
+}
+.shopNow {
+
+    all: unset;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.category{
+
+    all: unset;
+    background: transparent;
+    color: var(--grey);
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border: solid gray 1px;
+    margin-left: 10px;    
+}
+.shoping-details p{
+        margin-top: 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
+
+}
+.brands{
+display: flex;
+justify-content: space-around;
+width: 100px;
+margin-left: 10px;
+gap: 25px;
+}
