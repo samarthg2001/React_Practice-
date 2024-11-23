@@ -1,0 +1,75 @@
+.header{
+    margin: 0;   
+    display: flex; 
+    border:solid 1px  black;  
+}
+.header-nav{
+    display: flex;
+    margin: auto;
+    gap: 10px;
+    margin-left: 60vw;
+
+}
+li{
+    list-style: none;
+}
+.main{
+    display: flex;
+    width: 100vh;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    max-width: 50vw;
+    width: 40vw;
+    gap: 30px;
+}
+.form-btn{
+display: flex;
+justify-content: space-between;
+}
+.form-btn button{
+    font-weight: bold;
+    width: 300px;
+    border-radius: 10px;
+    font-size: .8em;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form-input input{
+    padding: 10px;
+}
+#email{
+    border:  solid  black;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+#email button{   
+padding: 30px;
+font-weight: 800;
+}
+
+#submit-btn{
+display: flex;
+flex-direction: row-reverse;
+}
+#submit{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+    border: solid black 1px;
+    margin-right: 5vh;
+    width: 300px;
+    cursor: pointer;
+}
