@@ -1,6 +1,6 @@
 .btn-components{
     display: flex;
-    flex-direction: column;
+        gap: 10px;
     margin: 30px;
 
 }
@@ -30,7 +30,17 @@
     font-size: 1em;
     margin-left: 5vw;
     color: black;
-    font-weight: bold;
+    font-weight: bold;  
+}
 
-   
+.win-loss{
+    font-size: 1em;
+    font-weight: bold;
+}
+.points{
+    margin-left: 140px;
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
 }

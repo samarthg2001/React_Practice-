@@ -1,28 +1,28 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import '../game/Game.Module.css'
- const Game=()=> {
-  const [selectNumber,setselectNumber]=useState(0)
+import { GameContext } from '../../GameProvider'
+
+const Game=()=> {
+
+  const {Totalscore,selectNumebr,setselectNumber}=useContext(GameContext)
   const arrNumber=[1,2,3,4,5,6];
-  const setvalue=(ele)=>{
-    setselectNumber(ele)
-    console.log(ele);
-  }
+  console.log(useContext(GameContext));
   
   return (
     <div>
       <nav className='nav-bar'>
         <div className='score'>
-            <h1>0</h1>
-            <p>Total Score</p>
+            <h1>{Totalscore}</h1>
+            <p>" Total score "</p>
         </div>
         <div>
             <div className='   number'>
               {arrNumber.map((ele,i)=>
               <button key={i} 
-              onClick={()=>setvalue(ele)}
+              onClick={()=>setselectNumber(ele)}
                 
-                style={{backgroundColor:ele!==selectNumber?"white":'black',
-              color:ele!==selectNumber?"black":'white'}}
+                style={{backgroundColor:ele!==selectNumebr?"white":'black',
+              color:ele!==selectNumebr?"black":'white'}}
               >{ele}</button>)}
             <p>Select Number</p>
             </div>
