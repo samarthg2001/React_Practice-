@@ -29,7 +29,8 @@ function Center() {
     setselectNumber(0);
     setTotalscore((prev)=>0);
     setWin(null);
-    setLoss(null  )
+    setLoss(null);
+    setcount((prev)=>0)
   }
    
 
